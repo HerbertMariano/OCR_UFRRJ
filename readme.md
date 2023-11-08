@@ -1,27 +1,28 @@
-# Resumo de Python - Linguagem de Programação
+# Resumo:
 
-Utilizou-se o openCV para o processamento de imagens, isto é, para lidar com manipulação de imagens, seja para leitura, criação ou conversão em escala de cinza.
+Como pedido no trabalho, utilizaremos Python + Tesseract + OpenCV
 
-O Tesseract foi empregado para o reconhecimento de caracteres e palavras dentro de uma imagem, ou seja, para identificar o texto contido na imagem.
+O OpenCV é uma ferramenta para processamento/manipulação de imagens, seja para leitura, criação ou conversão em escala de cinza.
 
-O pytesseract é a ferramenta que habilita a utilização do Tesseract em conjunto com o Python.
+O Tesseract é usado para reconhecer caracteres no geral dentro da imagem.
+
+Iremos usar PyTesseract? É o que permite que o Tesseract seja utilizado com o Python.
+
 
 ## Abordagem Prática:
 
-Escolha de Ferramentas e Bibliotecas: Para a realização deste trabalho, a linguagem Python foi escolhida. Além disso, tanto a biblioteca OpenCV de visão computacional quanto a biblioteca Tesseract de reconhecimento ótico de caracteres foram empregadas. O Tesseract foi selecionado devido à sua maior precisão na identificação de texto, bem como à sua facilidade de uso, proporcionando maior confiabilidade na extração de caracteres.
+Como pedido também, pretendemos realizar o pré-processamento da imagem, a localização do texto e o reconhecimento do caractere, que são as etapas mais importantes do processo.
 
-Pré-processamento de Imagens (OpenCV): O OpenCV foi utilizado para aplicar técnicas de processamento de imagem, incluindo a redução de ruído, binarização, ajuste de contraste e redimensionamento, a fim de melhorar a qualidade das imagens antes da extração de texto.
+Pré-processamento: Será utilizado com técnicas da biblioteca do OpenCV.
 
-Extração de Texto (Tesseract): O Tesseract foi utilizado para extrair o texto das imagens processadas. Configuraram-se as opções de idioma e otimizaram-se os parâmetros do Tesseract, sendo isso crucial para obter resultados precisos.
+Localização do texto(caractere): Caso venhamos a usar PyTesseract, será feito com ele.
 
-Pós-processamento de Texto: Após a extração de texto, realizou-se o pós-processamento para melhorar a qualidade e a formatação do texto, incluindo a correção de erros e a divisão de palavras em linhas e parágrafos, entre outras ações.
+Como já pesquisado, pretendemos incluir exemplos de casos de uso da solução OCR desenvolvida, como o desempenho em imagens comuns, de raio X e imagens com ruído.
 
-Integração e Saída de Dados: Integrar o código para receber imagens como entrada e fornecer texto como saída.
+As funções para o pré-processamento, segmentacão de caracteres e pós-processamento devem ser desenvolvidas em python. Pesquisei sobre a biblioteca Matplotlib para visualizar as imagens diretamente do programa principal.
+
 
 ## Abordagem Teórica:
 
-Seleção de Algoritmos e Modelos: Com base na revisão da literatura, escolha os algoritmos e modelos teóricos mais adequados ao projeto. Isso pode englobar algoritmos de segmentação de texto, modelos de linguagem e outros métodos relacionados à OCR.
+Todas as informações obtidas serão documentadas num relatório utilizando o padrão de artigo solicitado com imagens.
 
-Teste e Validação: Realizar testes e validação rigorosos para assegurar que o sistema OCR atenda aos requisitos de precisão e desempenho.
-
-Documentação e Relatório: Documentar todas as etapas da abordagem teórica, algoritmos e resultados em um relatório detalhado.
