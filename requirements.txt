@@ -1,0 +1,9 @@
+easyocr
+pandas
+numpy
+seaborn
+plotly
+jupyterlab
+jupyter
+matplotlib
+opencv-python
